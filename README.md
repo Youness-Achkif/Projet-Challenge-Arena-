@@ -38,7 +38,7 @@ npm run dev      # mode développement (auto-reload via nodemon)
 npm start        # mode production
 ```
 
----
+--
 
 ## Structure du projet
 
@@ -67,7 +67,7 @@ challenge-arena/
 ├── docker-compose.yml
 └── README.md
 ```
-
+________________________________________________________________________
 **Conventions :**
 - Les *services* renvoient `{ status, body }` ; les *controllers* relayent vers Express et gèrent le 500 via `try/catch`.
 - Validation `error-first` dans chaque service avant tout traitement.
@@ -207,3 +207,4 @@ echo "[]" > data/participants.json
 echo "[]" > data/validations.json
 # data/defis.json garde les 3 défis seed (d1, d2, d3)
 ```
+-----------------------------------------------------------------------

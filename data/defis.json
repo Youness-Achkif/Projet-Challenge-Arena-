@@ -1,0 +1,23 @@
+[
+  {
+    "id": "d1",
+    "titre": "Hello World en Bash",
+    "difficulte": "facile",
+    "points": 10,
+    "createdAt": "2026-05-06T00:00:00.000Z"
+  },
+  {
+    "id": "d2",
+    "titre": "Implémenter Fizz Buzz",
+    "difficulte": "moyen",
+    "points": 25,
+    "createdAt": "2026-05-06T00:00:00.000Z"
+  },
+  {
+    "id": "d3",
+    "titre": "Tri rapide récursif",
+    "difficulte": "difficile",
+    "points": 50,
+    "createdAt": "2026-05-06T00:00:00.000Z"
+  }
+]
